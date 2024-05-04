@@ -1,1 +1,3 @@
 res://Game.tscn
+res://Scenes/Left_Controller.tscn
+res://Scenes/VR_Controller.gd
