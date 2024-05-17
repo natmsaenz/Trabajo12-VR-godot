@@ -3,3 +3,5 @@ res://Scenes/Movement_Vignette.gd
 res://Scenes/Sphere_Target.tscn
 res://Game.gd
 res://Scenes/Sphere_Target.gd
+res://Scenes/Pistol.tscn
+res://Scenes/Pistol.gd
