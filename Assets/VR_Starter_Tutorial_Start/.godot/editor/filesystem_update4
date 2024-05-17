@@ -1,3 +1,2 @@
-res://Game.tscn
-res://Scenes/Left_Controller.tscn
-res://Scenes/VR_Controller.gd
+res://Scenes/Movement_Vignette.tscn
+res://Scenes/Movement_Vignette.gd

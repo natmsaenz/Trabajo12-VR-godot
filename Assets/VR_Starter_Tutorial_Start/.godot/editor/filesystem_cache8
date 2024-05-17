@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714793794
+::res://::1715978915
 default_env.tres::Environment::-1::1529023332::0::1::::<><>::
 Game.gd::GDScript::-1::1714793786::0::1::::<>Spatial<>::
-Game.tscn::PackedScene::4534728742341055202::1714793786::0::1::::<><>::res://Game.gd<>res://Scenes/Left_Controller.tscn<>res://Scenes/Right_Controller.tscn<>res://Scenes/Movement_Vignette.tscn<>res://Scenes/Sphere_Target.tscn<>res://GUI.gd<>res://Scenes/Pistol.tscn<>res://Scenes/Reset_Box.tscn<>res://Scenes/Bomb.tscn<>res://Scenes/Sword.tscn<>res://Scenes/Shotgun.tscn<>uid://w6kvtc3twmha::::res://Audio/Soundrangers_Nature_Ambience/coastal_ambience_01_120_loop.ogg
+Game.tscn::PackedScene::4534728742341055202::1714794086::0::1::::<><>::res://Game.gd<>res://Scenes/Left_Controller.tscn<>res://Scenes/Right_Controller.tscn<>res://Scenes/Movement_Vignette.tscn<>res://Scenes/Sphere_Target.tscn<>res://GUI.gd<>res://Scenes/Pistol.tscn<>res://Scenes/Reset_Box.tscn<>res://Scenes/Bomb.tscn<>res://Scenes/Sword.tscn<>res://Scenes/Shotgun.tscn<>uid://w6kvtc3twmha::::res://Audio/Soundrangers_Nature_Ambience/coastal_ambience_01_120_loop.ogg
 GUI.gd::GDScript::-1::1530031194::0::1::::<>MeshInstance<>::
 icon.png::CompressedTexture2D::1304065453415655937::1530049814::1714769451::1::::<><>::
 openxr_action_map.tres::OpenXRActionMap::2520633444605444897::1714793791::0::1::::<><>::
@@ -81,9 +81,9 @@ ovr_render_model.tscn::PackedScene::-1::1625831601::0::1::::<><>::res://addons/g
 ovr_right_hand.tscn::PackedScene::-1::1625831601::0::1::::<><>::res://addons/godot-openvr/meshes/vr_glove_right_model_slim.glb<>res://addons/godot-openvr/meshes/models_hands_vr_glove_vmat.material<>res://addons/godot-openvr/OpenVRPose.gdns<>res://addons/godot-openvr/OpenVRSkeleton.gdns
 ovr_shader_cache.gd::GDScript::-1::1625831601::0::1::::<>Spatial<>::
 ovr_shader_cache.tscn::PackedScene::-1::1625831601::0::1::::<><>::res://addons/godot-openvr/scenes/ovr_shader_cache.gd
-::res://Scenes/::1530490506
+::res://Scenes/::1714795212
 Bomb.tscn::PackedScene::-1::1530490434::0::1::::<><>::res://Assets/Bomb.scn<>res://Assets/Assets_Material.tres<>res://Audio/Oliver_Giaradot_Guns_And_Explosions/Bullet_Impact_22.ogg
-Left_Controller.tscn::PackedScene::-1::1530490488::0::1::::<><>::res://Assets/Hand_Left.scn<>res://Assets/Assets_Material.tres<>res://Audio/Gamemaster_audio_Punch_and_Combat_Sounds/foley_object_grab_pickup_04.ogg
+Left_Controller.tscn::PackedScene::3503985376633769448::1714795212::0::1::::<><>::res://Assets/Hand_Left.scn<>res://Scenes/VR_Controller.gd<>res://Assets/Assets_Material.tres<>uid://bwhocth4t2mrk::::res://Audio/Gamemaster_audio_Punch_and_Combat_Sounds/foley_object_grab_pickup_04.ogg
 Movement_Vignette.tscn::PackedScene::-1::1530490402::0::1::::<><>::res://Assets/vignette.png
 Pistol.tscn::PackedScene::-1::1530490422::0::1::::<><>::res://Assets/Pistol.scn<>res://Assets/Assets_Material.tres<>res://Assets/Pistol_Flash.scn<>res://Audio/Gamemaster_audio_Silenced_Gun_Sounds/gun_pistol_shot_silenced_04.ogg
 Reset_Box.tscn::PackedScene::-1::1530490428::0::1::::<><>::
@@ -91,3 +91,4 @@ Right_Controller.tscn::PackedScene::-1::1530490396::0::1::::<><>::res://Assets/H
 Shotgun.tscn::PackedScene::-1::1530490452::0::1::::<><>::res://Assets/Shotgun.scn<>res://Assets/Assets_Material.tres<>res://Assets/Shotgun_Flash.scn<>res://Audio/Gamemaster_audio_Silenced_Gun_Sounds/gun_silenced_sniper1_shot_01.ogg
 Sphere_Target.tscn::PackedScene::-1::1530490408::0::1::::<><>::res://Assets/Shpere_Target.scn<>res://Assets/Assets_Material.tres<>res://Audio/Antisample_Rocks_and_Stones/Rock_Impact_Slide_Wood_Cave_MONO_04.ogg
 Sword.tscn::PackedScene::-1::1530490444::0::1::::<><>::res://Assets/Sword.scn<>res://Assets/Assets_Material.tres<>res://Audio/Gamemaster_audio_Punch_and_Combat_Sounds/punch_grit_wet_impact_05.ogg
+VR_Controller.gd::GDScript::-1::1714795212::0::1::::<>ARVRController<>::
