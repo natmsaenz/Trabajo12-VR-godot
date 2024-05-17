@@ -1,0 +1,14 @@
+res://Assets/Assets_Material.tres::e0764cc54a0d16129c332502eefbbddb::1528494114::res://.godot/exported/133200997/export-774f3ee840d5333504657db669f0599f-Assets_Material.res
+res://godot-openvr/godot_openvr_1.1.0/addons/godot-openvr/scenes/framecounter_in_3d.tscn::08a0725419c1e39b9074931255d34212::1625831601::res://.godot/exported/133200997/export-b1b64c22c335104cf85633c222a6dbdc-framecounter_in_3d.scn
+res://Scenes/Bomb.tscn::145600eb4676290f8fa77c88f399c9a8::1715983687::res://.godot/exported/133200997/export-8487c1d7e54814082d601a5dd340cbec-Bomb.scn
+res://Scenes/Left_Controller.tscn::d27e9821759846fc2af7e52e45a854fb::1714795212::res://.godot/exported/133200997/export-fc74b313d431c23375980a22ea051e74-Left_Controller.scn
+res://Scenes/Movement_Vignette.tscn::5131dca0268859ac4245fb7c828e4703::1715979907::res://.godot/exported/133200997/export-50913a96f741beebc21d57f810309077-Movement_Vignette.scn
+res://Scenes/Pistol.tscn::058300e7dba909802ef97d811a2de735::1715983687::res://.godot/exported/133200997/export-0d148347045cda49f8d87b7987df9678-Pistol.scn
+res://Scenes/Reset_Box.tscn::36859a8bf08e24b62af7a8d146f85786::1715983687::res://.godot/exported/133200997/export-2aebd5d8c336a87b1ff0d1c98e3781c9-Reset_Box.scn
+res://Scenes/Right_Controller.tscn::91d11b4d7fbbc951ae5bb481797dc58a::1530490396::res://.godot/exported/133200997/export-e84eca9cfb119bffd3b74a2f20b9c1b1-Right_Controller.scn
+res://Scenes/Shotgun.tscn::d82124df80e580caa128fda3be6f93d4::1715983687::res://.godot/exported/133200997/export-ed81f8e68548298924a0f5a0af81a551-Shotgun.scn
+res://Scenes/Sphere_Target.tscn::d8cc34b560e1ba93881e9bbd207bc73b::1715983687::res://.godot/exported/133200997/export-69ec921358f8b311298c0b315a566e2f-Sphere_Target.scn
+res://Scenes/Sword.tscn::6ba6bed63dbaac4bd4e6c421d57f80cc::1715981675::res://.godot/exported/133200997/export-d3e249e5cf8cd759dd24c32c2b621864-Sword.scn
+res://default_env.tres::e93f89d5a92b457612e82f68a1216295::1529023332::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
+res://Game.tscn::7564188a4d56518f245cf9385580ec21::1715983686::res://.godot/exported/133200997/export-6455994a605b35b7d96f8362f3055c4a-Game.scn
+res://openxr_action_map.tres::bf9da4e854569c0f7cb5169e2a63da40::1714793791::res://.godot/exported/133200997/export-a9d757fdde490682a87dc1ad8c7d3357-openxr_action_map.res
