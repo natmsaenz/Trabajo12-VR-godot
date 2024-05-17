@@ -1,4 +1,4 @@
-extends RigidBody
+extends RigidBody3D
 
 onready var bomb_mesh = $Bomb
 onready var explosion_area = $Area

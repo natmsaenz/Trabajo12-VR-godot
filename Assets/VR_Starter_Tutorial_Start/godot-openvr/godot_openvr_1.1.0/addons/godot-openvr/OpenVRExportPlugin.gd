@@ -1,4 +1,4 @@
-tool
+
 extends EditorExportPlugin
 
 func _export_begin(features: PoolStringArray, is_debug: bool, path: String, flags: int ):

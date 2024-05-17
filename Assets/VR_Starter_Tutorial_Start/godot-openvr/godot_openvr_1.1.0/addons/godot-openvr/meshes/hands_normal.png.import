@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckxhyja5fcn68"
 path.s3tc="res://.godot/imported/hands_normal.png-715ae9c4e79d5688281a8bd2ea264e2d.s3tc.ctex"
+path.etc2="res://.godot/imported/hands_normal.png-715ae9c4e79d5688281a8bd2ea264e2d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://godot-openvr/godot_openvr_1.1.0/addons/godot-openvr/meshes/hands_normal.png"
-dest_files=["res://.godot/imported/hands_normal.png-715ae9c4e79d5688281a8bd2ea264e2d.s3tc.ctex"]
+dest_files=["res://.godot/imported/hands_normal.png-715ae9c4e79d5688281a8bd2ea264e2d.s3tc.ctex", "res://.godot/imported/hands_normal.png-715ae9c4e79d5688281a8bd2ea264e2d.etc2.ctex"]
 
 [params]
 

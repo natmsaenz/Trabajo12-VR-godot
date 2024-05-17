@@ -1,4 +1,4 @@
-extends StaticBody
+extends StaticBody3D
 
 var destroyed = false
 var destroyed_timer = 0

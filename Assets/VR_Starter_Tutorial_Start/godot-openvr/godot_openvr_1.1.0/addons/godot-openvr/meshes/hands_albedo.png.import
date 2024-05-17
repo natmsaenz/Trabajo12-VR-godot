@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4nl3kdcxijne"
 path.s3tc="res://.godot/imported/hands_albedo.png-b8be8874c2b32b8813be1b4cf0c3d5a0.s3tc.ctex"
+path.etc2="res://.godot/imported/hands_albedo.png-b8be8874c2b32b8813be1b4cf0c3d5a0.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://godot-openvr/godot_openvr_1.1.0/addons/godot-openvr/meshes/hands_albedo.png"
-dest_files=["res://.godot/imported/hands_albedo.png-b8be8874c2b32b8813be1b4cf0c3d5a0.s3tc.ctex"]
+dest_files=["res://.godot/imported/hands_albedo.png-b8be8874c2b32b8813be1b4cf0c3d5a0.s3tc.ctex", "res://.godot/imported/hands_albedo.png-b8be8874c2b32b8813be1b4cf0c3d5a0.etc2.ctex"]
 
 [params]
 

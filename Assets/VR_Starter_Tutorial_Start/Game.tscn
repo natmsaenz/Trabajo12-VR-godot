@@ -1,16 +1,17 @@
-[gd_scene load_steps=31 format=3 uid="uid://b5uwk40sxa74y"]
+[gd_scene load_steps=32 format=3 uid="uid://b5uwk40sxa74y"]
 
 [ext_resource type="Script" path="res://Game.gd" id="1_a2s0q"]
-[ext_resource type="PackedScene" path="res://Scenes/Left_Controller.tscn" id="2"]
+[ext_resource type="PackedScene" uid="uid://bp6melcbkgpb1" path="res://Scenes/Left_Controller.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://Scenes/Right_Controller.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://Scenes/Movement_Vignette.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://Scenes/Sphere_Target.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://cr6xmkfn4msl3" path="res://Scenes/Movement_Vignette.tscn" id="4"]
+[ext_resource type="PackedScene" uid="uid://dkaht68fg6287" path="res://Scenes/Sphere_Target.tscn" id="5"]
 [ext_resource type="Script" path="res://GUI.gd" id="6"]
-[ext_resource type="PackedScene" path="res://Scenes/Pistol.tscn" id="8"]
-[ext_resource type="PackedScene" path="res://Scenes/Reset_Box.tscn" id="9"]
-[ext_resource type="PackedScene" path="res://Scenes/Bomb.tscn" id="10"]
-[ext_resource type="PackedScene" path="res://Scenes/Sword.tscn" id="11"]
-[ext_resource type="PackedScene" path="res://Scenes/Shotgun.tscn" id="12"]
+[ext_resource type="Script" path="res://Base_Control.gd" id="7_writ0"]
+[ext_resource type="PackedScene" uid="uid://bf6mort4xrnns" path="res://Scenes/Pistol.tscn" id="8"]
+[ext_resource type="PackedScene" uid="uid://cyxulfvrcflmb" path="res://Scenes/Reset_Box.tscn" id="9"]
+[ext_resource type="PackedScene" uid="uid://ivr3y41weejw" path="res://Scenes/Bomb.tscn" id="10"]
+[ext_resource type="PackedScene" uid="uid://cmmg8jvor3rnb" path="res://Scenes/Sword.tscn" id="11"]
+[ext_resource type="PackedScene" uid="uid://1fiqfuahtq4j" path="res://Scenes/Shotgun.tscn" id="12"]
 [ext_resource type="AudioStream" uid="uid://w6kvtc3twmha" path="res://Audio/Soundrangers_Nature_Ambience/coastal_ambience_01_120_loop.ogg" id="13"]
 
 [sub_resource type="BoxMesh" id="1"]
@@ -376,7 +377,6 @@ far = 100.0
 
 [node name="Movement_Vignette" parent="ARVROrigin" instance=ExtResource("4")]
 visible = false
-anchors_preset = 15
 
 [node name="Spheres" type="Node3D" parent="."]
 
@@ -437,6 +437,7 @@ size = Vector2i(800, 800)
 [node name="Base_Control" type="Control" parent="GUI/GUI"]
 layout_mode = 3
 anchors_preset = 0
+script = ExtResource("7_writ0")
 
 [node name="Label" type="Label" parent="GUI/GUI/Base_Control"]
 layout_mode = 0
@@ -488,13 +489,9 @@ red Box to reset!"
 
 [node name="Pistol" parent="Interactable_Objects" instance=ExtResource("8")]
 transform = Transform3D(-2.32729e-08, 0.258819, 0.965926, 1, -4.37114e-08, 3.58063e-08, 5.14893e-08, 0.965926, -0.258819, 26.8528, 7.48704, 17.7386)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Pistol2" parent="Interactable_Objects" instance=ExtResource("8")]
 transform = Transform3D(-1.50459e-08, -0.258819, -0.965926, 1, 7.54979e-08, -3.58063e-08, 8.21927e-08, -0.965926, 0.258819, 26.3313, 7.48704, 17.6496)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Reset_Box" parent="Interactable_Objects" instance=ExtResource("9")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.98995, 0.988414, 18.6295)
@@ -503,53 +500,33 @@ angular_damp = 0.0
 
 [node name="Bomb" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.7935, 1.38314, -23.8408)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb2" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.9647, 1.38314, -24.1463)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb3" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.2767, 1.38314, -24.0626)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb4" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.1282, 1.38314, -23.7863)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb5" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.2231, 1.38314, -24.3384)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb6" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.4989, 1.38314, -24.1925)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb7" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.4989, 1.38314, -23.9261)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Bomb8" parent="Interactable_Objects" instance=ExtResource("10")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.3611, 1.38314, -23.6749)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Sword" parent="Interactable_Objects" instance=ExtResource("11")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.5851, 1.50581, 27.2947)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Shotgun" parent="Interactable_Objects" instance=ExtResource("12")]
 transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -7.61642, 1.39338, -25.72)
-linear_damp = 0.0
-angular_damp = 0.0
 
 [node name="Teleport_Mesh" type="MeshInstance3D" parent="."]
 visible = false

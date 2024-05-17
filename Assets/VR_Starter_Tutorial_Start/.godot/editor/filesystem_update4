@@ -9,3 +9,11 @@ res://Scenes/Shotgun.tscn
 res://Scenes/Shotgun.gd
 res://Scenes/Bomb.tscn
 res://Scenes/Bomb.gd
+res://Scenes/Sword.tscn
+res://Scenes/Sword.gd
+res://Game.tscn
+res://GUI.gd
+res://Base_Control.gd
+res://Scenes/Reset_Box.tscn
+res://Scenes/Reset_Box.gd
+res://godot-openvr/godot_openvr_1.1.0/addons/godot-openvr/OpenVRExportPlugin.gd

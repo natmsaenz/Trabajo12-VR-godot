@@ -1,4 +1,4 @@
-extends RigidBody
+extends RigidBody3D
 
 onready var flash_mesh = $Pistol_Flash
 onready var laser_sight_mesh = $LaserSight

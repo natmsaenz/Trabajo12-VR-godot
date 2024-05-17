@@ -1,4 +1,4 @@
-extends RigidBody
+extends RigidBody3D
 
 onready var flash_mesh = $Shotgun_Flash
 onready var raycasts = $Raycasts
