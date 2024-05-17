@@ -7,3 +7,5 @@ res://Scenes/Pistol.tscn
 res://Scenes/Pistol.gd
 res://Scenes/Shotgun.tscn
 res://Scenes/Shotgun.gd
+res://Scenes/Bomb.tscn
+res://Scenes/Bomb.gd
